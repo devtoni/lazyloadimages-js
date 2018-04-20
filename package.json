@@ -1,0 +1,37 @@
+{
+  "name": "lazyload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/lazyload.js",
+  "scripts": {
+    "build": "webpack --env dev && webpack --env build",
+    "co": "sui-mono commit",
+    "dev": "webpack --progress --colors --watch --env dev",
+    "phoenix": "rm -Rf node_modules && npm i",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devtoni/lazyload.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devtoni/lazyload/issues"
+  },
+  "homepage": "https://github.com/devtoni/lazyload#readme",
+  "devDependencies": {
+    "@s-ui/mono": "1.27.0",
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-eslint": "8.0.3",
+    "babel-loader": "7.1.2",
+    "babel-plugin-add-module-exports": "0.2.1",
+    "babel-preset-sui": "1.5.0",
+    "eslint": "4.13.1",
+    "eslint-loader": "1.9.0",
+    "jest": "22.4.3",
+    "webpack": "3.10.0"
+  }
+}

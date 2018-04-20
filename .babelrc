@@ -1,0 +1,4 @@
+{
+  "presets": ["sui"],
+  "plugins": ["babel-plugin-add-module-exports"]
+}
