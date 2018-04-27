@@ -1,5 +1,5 @@
 {
-  "name": "lazyload",
+  "name": "lazyloading-images",
   "version": "1.0.0",
   "description": "",
   "main": "lib/lazyload.js",
@@ -8,7 +8,9 @@
     "co": "sui-mono commit",
     "dev": "webpack --progress --colors --watch --env dev",
     "phoenix": "rm -Rf node_modules && npm i",
-    "test": ""
+    "test": "jest --watchAll",
+    "server": "http-server public/",
+    "debug": "NODE_ENV=debug npm test"
   },
   "repository": {
     "type": "git",
@@ -31,7 +33,10 @@
     "babel-preset-sui": "1.5.0",
     "eslint": "4.13.1",
     "eslint-loader": "1.9.0",
+    "http-server": "0.11.1",
     "jest": "22.4.3",
+    "jest-cli": "22.4.3",
+    "puppeteer": "1.3.0",
     "webpack": "3.10.0"
   }
 }
