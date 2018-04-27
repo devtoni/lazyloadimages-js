@@ -11,7 +11,7 @@ export class LazyLoadImageStrategy {
       options: { lazySrcAttribute, lazyLoadedClassName }
     }
   ) {
-    image.setAttribute('src', image.getAttribute(lazySrcAttribute));
+    image.setAttribute('src', image.dataset[lazySrcAttribute]);
     image.onload = () => {
       image.classList.add(lazyLoadedClassName);
     };

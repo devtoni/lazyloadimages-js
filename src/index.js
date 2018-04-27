@@ -1,3 +1,3 @@
 import { Factory } from './strategy/Factory';
 
-export default Factory.lazyLoadImage();
+export default Factory.lazyLoadImage;
