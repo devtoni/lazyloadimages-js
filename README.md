@@ -18,6 +18,7 @@ const images = document.querySelectorAll('img')
 const options = {
   lazySrcAttribute: 'lazy-load-src',
   lazyLoadedClassName: 'loaded',
+  interSectionObserverStrategy: true,
   observerOptions: {}
 }
 
