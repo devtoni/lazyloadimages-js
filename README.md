@@ -2,9 +2,17 @@ Allows you to lazily load your images according to navigator compatibilities usi
 
 WiP!
 
+### Usage
+
+```javascript
+
+npm install --save lazyloading-images
+```
+
+
 ### Example
 ```javascript
-import lazyLoadHandler from 'package'
+import lazyLoadHandler from 'lazyloading-images'
 
 const images = document.querySelectorAll('img')
 const options = {
