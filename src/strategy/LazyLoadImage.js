@@ -12,10 +12,8 @@ export class LazyLoadImage {
     const { existsIntersectionObserver } = LazyLoadImage;
 
     if (existsIntersectionObserver() && options.interSectionObserverStrategy) {
-      console.log('observer', options);
       new this._interSectionObserverStrategy({ images, options }).initialize();
     } else {
-      console.log('scroll', options);
       new this._scrollHandlerStrategy({ images, options }).initialize();
     }
   }
